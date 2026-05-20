@@ -410,7 +410,6 @@ function initFAQSearch() {
 function filterFAQ(query) {
     const items = document.querySelectorAll('.faq-item');
     const noResults = document.getElementById('faq-no-results');
-    const contactCta = document.getElementById('faq-contact-cta');
     let visible = 0;
 
     items.forEach(item => {
@@ -440,7 +439,6 @@ function filterFAQ(query) {
     });
 
     if (noResults) noResults.classList.toggle('show', visible === 0 && query.length > 0);
-    if (contactCta) contactCta.style.display = (visible === 0 && query.length > 0) ? 'none' : '';
 }
 
 function clearSearch() {

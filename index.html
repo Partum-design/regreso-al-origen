@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Formulario de registro para terapia en Regreso al Origen. Inicia tu proceso de sanación y bienestar emocional.">
-    <title>Regreso al Origen — Formulario de Registro</title>
+    <meta name="description" content="Formulario de registro para acompanamiento en Regreso al Origen. Inicia tu camino de bienestar emocional.">
+    <title>Regreso al Origen â€” Formulario de Registro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -25,13 +25,12 @@
 
         <div class="hero-content">
             <div class="logo-container" id="logo-container">
-                <div class="logo-ring"></div>
                 <img src="logotipo_regresoalorigen.png" alt="Regreso al Origen" class="logo-img" id="logo-img">
             </div>
-            <p class="hero-tagline">Tu camino hacia la sanación comienza aquí</p>
+            <p class="hero-tagline">Tu camino de bienestar comienza aqui</p>
             <div class="hero-badges">
                 <span class="badge"><i data-lucide="shield-check" class="badge-icon"></i> Confidencial</span>
-                <span class="badge"><i data-lucide="heart-handshake" class="badge-icon"></i> Profesional</span>
+                <span class="badge"><i data-lucide="heart-handshake" class="badge-icon"></i> Acompanante</span>
                 <span class="badge"><i data-lucide="sparkles" class="badge-icon"></i> Transformador</span>
             </div>
             <button class="scroll-cta" id="scroll-cta" onclick="document.getElementById('main-content').scrollIntoView({behavior:'smooth'})">
@@ -44,14 +43,14 @@
     <!-- ===== MAIN ===== -->
     <main class="main-content" id="main-content">
 
-        <!-- ─── FORM SECTION ─── -->
+        <!-- â”€â”€â”€ FORM SECTION â”€â”€â”€ -->
         <section class="form-section" id="form-section">
             <div class="section-header reveal-up">
                 <div class="section-badge">
                     <i data-lucide="clipboard-pen" class="section-badge-icon"></i>
                 </div>
                 <h1 class="section-title">Formulario de Registro</h1>
-                <p class="section-subtitle">Completa la siguiente información para iniciar tu proceso terapéutico.<br>Toda la información es <strong>estrictamente confidencial</strong>.</p>
+                <p class="section-subtitle">Completa la siguiente informacion para iniciar tu proceso de acompanamiento.<br>Toda la informacion es <strong>estrictamente confidencial</strong>.</p>
             </div>
 
             <form class="therapy-form" id="therapy-form" novalidate>
@@ -71,11 +70,11 @@
                     </button>
                     <button type="button" class="step-dot" data-step="3" onclick="goToStep(3)">
                         <span class="dot-num">3</span>
-                        <span class="dot-label">Terapia</span>
+                        <span class="dot-label">Proceso</span>
                     </button>
                 </div>
 
-                <!-- ── Step 1 ── -->
+                <!-- â”€â”€ Step 1 â”€â”€ -->
                 <div class="form-step active" id="step-1">
                     <div class="form-card glass-card">
                         <div class="card-header">
@@ -108,7 +107,7 @@
                                 <div class="input-wrap">
                                     <i data-lucide="phone" class="field-icon"></i>
                                     <input type="tel" id="telefono" name="telefono" required autocomplete="tel" placeholder=" ">
-                                    <label for="telefono">Teléfono</label>
+                                    <label for="telefono">TelÃ©fono</label>
                                     <span class="focus-line"></span>
                                 </div>
                                 <span class="err" id="error-telefono"></span>
@@ -134,12 +133,12 @@
                     </div>
                 </div>
 
-                <!-- ── Step 2 ── -->
+                <!-- â”€â”€ Step 2 â”€â”€ -->
                 <div class="form-step" id="step-2">
                     <div class="form-card glass-card">
                         <div class="card-header">
                             <div class="card-icon-wrap"><i data-lucide="users-round" class="card-icon"></i></div>
-                            <h2 class="card-title">Información Familiar</h2>
+                            <h2 class="card-title">InformaciÃ³n Familiar</h2>
                         </div>
 
                         <div class="fields-grid">
@@ -147,7 +146,7 @@
                                 <div class="input-wrap">
                                     <i data-lucide="users" class="field-icon"></i>
                                     <input type="number" id="hermanos" name="hermanos" required min="0" max="30" placeholder=" ">
-                                    <label for="hermanos">¿Cuántos hermanos tiene?</label>
+                                    <label for="hermanos">Â¿CuÃ¡ntos hermanos tiene?</label>
                                     <span class="focus-line"></span>
                                 </div>
                                 <span class="err" id="error-hermanos"></span>
@@ -164,7 +163,7 @@
                                         <option value="4">Cuarto</option>
                                         <option value="5">Quinto</option>
                                         <option value="6">Sexto o posterior</option>
-                                        <option value="unico">Hijo(a) único(a)</option>
+                                        <option value="unico">Hijo(a) Ãºnico(a)</option>
                                     </select>
                                     <label for="lugar">Lugar entre hermanos</label>
                                     <span class="focus-line"></span>
@@ -185,23 +184,23 @@
                     </div>
                 </div>
 
-                <!-- ── Step 3 ── -->
+                <!-- â”€â”€ Step 3 â”€â”€ -->
                 <div class="form-step" id="step-3">
                     <div class="form-card glass-card">
                         <div class="card-header">
                             <div class="card-icon-wrap"><i data-lucide="brain" class="card-icon"></i></div>
-                            <h2 class="card-title">Sobre la Terapia</h2>
+                            <h2 class="card-title">Sobre tu proceso</h2>
                         </div>
 
                         <div class="fields-grid">
                             <div class="form-group full" id="group-terapia-antes">
-                                <p class="radio-label"><i data-lucide="help-circle" class="inline-icon"></i> ¿Ha asistido a terapia antes?</p>
+                                <p class="radio-label"><i data-lucide="help-circle" class="inline-icon"></i> Â¿Has recibido acompanamiento antes?</p>
                                 <div class="radio-group">
                                     <label class="radio-card" for="terapia-si">
                                         <input type="radio" id="terapia-si" name="terapia_antes" value="si" required>
                                         <div class="radio-card-inner">
                                             <i data-lucide="check-circle-2" class="radio-card-icon"></i>
-                                            <span>Sí, he asistido</span>
+                                            <span>SÃ­, he asistido</span>
                                         </div>
                                     </label>
                                     <label class="radio-card" for="terapia-no">
@@ -218,17 +217,17 @@
                             <div class="form-group full" id="group-motivo">
                                 <div class="input-wrap textarea-wrap">
                                     <textarea id="motivo" name="motivo" required rows="4" placeholder=" "></textarea>
-                                    <label for="motivo"><i data-lucide="message-circle" class="inline-icon"></i> ¿Por qué está asistiendo a terapia?</label>
+                                    <label for="motivo"><i data-lucide="message-circle" class="inline-icon"></i> ¿Por que buscas acompanamiento en este momento?</label>
                                     <span class="focus-line"></span>
                                 </div>
-                                <p class="hint">Cuéntanos brevemente tu motivo de consulta</p>
+                                <p class="hint">CuÃ©ntanos brevemente tu motivo de consulta</p>
                                 <span class="err" id="error-motivo"></span>
                             </div>
 
                             <div class="form-group full" id="group-expectativas">
                                 <div class="input-wrap textarea-wrap">
                                     <textarea id="expectativas" name="expectativas" required rows="4" placeholder=" "></textarea>
-                                    <label for="expectativas"><i data-lucide="target" class="inline-icon"></i> ¿Qué espera de la terapia?</label>
+                                    <label for="expectativas"><i data-lucide="target" class="inline-icon"></i> ¿Que esperas de este acompanamiento?</label>
                                     <span class="focus-line"></span>
                                 </div>
                                 <p class="hint">Comparte tus expectativas y metas personales</p>
@@ -260,8 +259,8 @@
                         <path fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" class="ck-path"/>
                     </svg>
                 </div>
-                <h2 class="modal-title">¡Registro Exitoso!</h2>
-                <p class="modal-msg">Gracias por completar tu registro. Nos pondremos en contacto contigo pronto para agendar tu primera sesión.</p>
+                <h2 class="modal-title">Â¡Registro Exitoso!</h2>
+                <p class="modal-msg">Gracias por completar tu registro. Nos pondremos en contacto contigo pronto para agendar tu primer espacio.</p>
                 <button class="btn btn-primary" onclick="closeModal()">Entendido</button>
             </div>
         </div>
@@ -272,7 +271,6 @@
             <i data-lucide="leaf" class="divider-icon"></i>
             <div class="divider-line"></div>
         </div>
-
         <!-- ===== FAQ SECTION ===== -->
         <section class="faq-section" id="faq-section">
             <div class="section-header reveal-up">
@@ -280,14 +278,14 @@
                     <i data-lucide="message-circle-question" class="section-badge-icon"></i>
                 </div>
                 <h2 class="section-title">Preguntas Frecuentes</h2>
-                <p class="section-subtitle">Resolvemos tus dudas más comunes sobre el proceso terapéutico</p>
+                <p class="section-subtitle">Resolvemos tus dudas mas comunes sobre el acompanamiento</p>
             </div>
 
             <!-- FAQ Search -->
             <div class="faq-search-wrap reveal-up">
                 <div class="faq-search">
                     <i data-lucide="search" class="search-icon"></i>
-                    <input type="text" id="faq-search-input" placeholder="Busca tu pregunta aquí..." autocomplete="off">
+                    <input type="text" id="faq-search-input" placeholder="Busca tu pregunta aqui..." autocomplete="off">
                     <button type="button" class="search-clear" id="search-clear" onclick="clearSearch()">
                         <i data-lucide="x"></i>
                     </button>
@@ -295,122 +293,122 @@
             </div>
 
             <div class="faq-list" id="faq-list">
-                <div class="faq-item reveal-up" data-keywords="tipo terapia modalidad enfoque individual familiar">
+                <div class="faq-item reveal-up" data-keywords="tipo acompanamiento individual familiar emocional">
                     <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
                         <div class="faq-q-left">
                             <span class="faq-num">01</span>
-                            <span class="faq-q-text">¿Qué tipo de terapia ofrecen en Regreso al Origen?</span>
+                            <span class="faq-q-text">Que tipo de acompanamiento ofrecen en Regreso al Origen?</span>
                         </div>
                         <div class="faq-toggle"><i data-lucide="plus"></i></div>
                     </button>
                     <div class="faq-a">
                         <div class="faq-a-inner">
-                            <p>Ofrecemos diversas modalidades terapéuticas adaptadas a las necesidades de cada persona, incluyendo terapia individual, terapia familiar y acompañamiento emocional. Nuestro enfoque se centra en reconectar con tu esencia y promover tu bienestar integral.</p>
+                            <p>Ofrecemos acompanamiento personal, familiar y emocional, segun lo que cada persona necesita.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="faq-item reveal-up" data-keywords="duración sesión tiempo frecuencia minutos hora">
+                <div class="faq-item reveal-up" data-keywords="duracion sesion tiempo frecuencia minutos">
                     <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
                         <div class="faq-q-left">
                             <span class="faq-num">02</span>
-                            <span class="faq-q-text">¿Cuánto dura cada sesión de terapia?</span>
+                            <span class="faq-q-text">Cuanto dura cada sesion?</span>
                         </div>
                         <div class="faq-toggle"><i data-lucide="plus"></i></div>
                     </button>
                     <div class="faq-a">
                         <div class="faq-a-inner">
-                            <p>Cada sesión tiene una duración aproximada de 50 a 60 minutos. La frecuencia de las sesiones se determina junto con tu terapeuta según tus necesidades y objetivos terapéuticos.</p>
+                            <p>Cada sesion dura entre 50 y 60 minutos. La frecuencia se define contigo y con tu acompanante segun tus necesidades.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="faq-item reveal-up" data-keywords="confidencial información privacidad datos seguridad secreto">
+                <div class="faq-item reveal-up" data-keywords="confidencial informacion privacidad datos">
                     <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
                         <div class="faq-q-left">
                             <span class="faq-num">03</span>
-                            <span class="faq-q-text">¿Es confidencial la información que comparto?</span>
+                            <span class="faq-q-text">Es confidencial la informacion que comparto?</span>
                         </div>
                         <div class="faq-toggle"><i data-lucide="plus"></i></div>
                     </button>
                     <div class="faq-a">
                         <div class="faq-a-inner">
-                            <p>Absolutamente. Toda la información compartida durante el registro y las sesiones es estrictamente confidencial, protegida bajo nuestro código de ética profesional y las leyes de protección de datos personales.</p>
+                            <p>Si. Todo lo que compartes en tu registro y en cada sesion se mantiene de forma confidencial y cuidada.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="faq-item reveal-up" data-keywords="experiencia primera vez necesito nuevo principiante">
+                <div class="faq-item reveal-up" data-keywords="primera vez experiencia inicio">
                     <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
                         <div class="faq-q-left">
                             <span class="faq-num">04</span>
-                            <span class="faq-q-text">¿Necesito experiencia previa en terapia?</span>
+                            <span class="faq-q-text">Necesito experiencia previa en acompanamiento?</span>
                         </div>
                         <div class="faq-toggle"><i data-lucide="plus"></i></div>
                     </button>
                     <div class="faq-a">
                         <div class="faq-a-inner">
-                            <p>No es necesario. Ya sea tu primera vez o hayas asistido antes, nuestro equipo te guiará en cada paso del proceso. Lo más importante es tu disposición para iniciar este camino de autoconocimiento.</p>
+                            <p>No es necesario. Sea tu primera vez o no, te guiamos paso a paso.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="faq-item reveal-up" data-keywords="necesito terapia cuando debo ir señales síntomas ayuda">
+                <div class="faq-item reveal-up" data-keywords="cuando empezar ayuda emociones dudas">
                     <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
                         <div class="faq-q-left">
                             <span class="faq-num">05</span>
-                            <span class="faq-q-text">¿Cómo sé si necesito terapia?</span>
+                            <span class="faq-q-text">Como se si necesito acompanamiento?</span>
                         </div>
                         <div class="faq-toggle"><i data-lucide="plus"></i></div>
                     </button>
                     <div class="faq-a">
                         <div class="faq-a-inner">
-                            <p>Si sientes que algo en tu vida no está funcionando como deseas, si experimentas emociones difíciles de manejar, o simplemente quieres conocerte mejor, la terapia puede ser un gran recurso. No necesitas estar en crisis para buscar ayuda profesional.</p>
+                            <p>Si sientes que algo no esta funcionando como deseas o hay emociones que te pesan, el acompanamiento puede ayudarte.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="faq-item reveal-up" data-keywords="después formulario registro contacto siguiente paso cita agendar">
+                <div class="faq-item reveal-up" data-keywords="despues formulario contacto llamada cita">
                     <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
                         <div class="faq-q-left">
                             <span class="faq-num">06</span>
-                            <span class="faq-q-text">¿Qué pasa después de enviar el formulario?</span>
+                            <span class="faq-q-text">Que pasa despues de enviar el formulario?</span>
                         </div>
                         <div class="faq-toggle"><i data-lucide="plus"></i></div>
                     </button>
                     <div class="faq-a">
                         <div class="faq-a-inner">
-                            <p>Una vez que envíes tu formulario, nuestro equipo revisará tu información y se comunicará contigo por teléfono dentro de las siguientes 24-48 horas para agendar tu primera sesión y resolver cualquier duda adicional.</p>
+                            <p>Te contactamos dentro de 24 a 48 horas para agendar tu primer espacio y resolver tus dudas.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="faq-item reveal-up" data-keywords="costo precio pago cuánto cobran tarifa">
+                <div class="faq-item reveal-up" data-keywords="costo precio pago tarifas">
                     <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
                         <div class="faq-q-left">
                             <span class="faq-num">07</span>
-                            <span class="faq-q-text">¿Cuál es el costo de las sesiones?</span>
+                            <span class="faq-q-text">Cual es el costo de las sesiones?</span>
                         </div>
                         <div class="faq-toggle"><i data-lucide="plus"></i></div>
                     </button>
                     <div class="faq-a">
                         <div class="faq-a-inner">
-                            <p>Los costos varían según la modalidad terapéutica. Te invitamos a comunicarte con nosotros para obtener información detallada sobre nuestras tarifas y opciones de pago disponibles.</p>
+                            <p>Los costos cambian segun el tipo de acompanamiento. Escribenos y te compartimos precios y opciones de pago.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="faq-item reveal-up" data-keywords="cancelar reprogramar sesión cambiar fecha horario">
+                <div class="faq-item reveal-up" data-keywords="cancelar reprogramar sesion fecha horario">
                     <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
                         <div class="faq-q-left">
                             <span class="faq-num">08</span>
-                            <span class="faq-q-text">¿Puedo cancelar o reprogramar una sesión?</span>
+                            <span class="faq-q-text">Puedo cancelar o reprogramar una sesion?</span>
                         </div>
                         <div class="faq-toggle"><i data-lucide="plus"></i></div>
                     </button>
                     <div class="faq-a">
                         <div class="faq-a-inner">
-                            <p>Sí, puedes cancelar o reprogramar tu sesión con al menos 24 horas de anticipación sin costo adicional. Te pedimos que nos avises con tiempo para poder reorganizar nuestra agenda.</p>
+                            <p>Si. Puedes cancelar o reprogramar con al menos 24 horas de anticipacion.</p>
                         </div>
                     </div>
                 </div>
@@ -422,9 +420,9 @@
                     <i data-lucide="search-x" class="no-results-icon"></i>
                 </div>
                 <h3>No encontramos una respuesta</h3>
-                <p>No te preocupes, ¡contáctanos directamente y con gusto te ayudamos!</p>
+                <p>Si no encuentras tu pregunta, escribenos y te ayudamos.</p>
                 <div class="no-results-actions">
-                    <a href="https://wa.me/527772677295?text=Hola%2C%20tengo%20una%20duda%20sobre%20la%20terapia%20en%20Regreso%20al%20Origen" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                    <a href="https://wa.me/527772677295?text=Hola%2C%20tengo%20una%20duda%20sobre%20el%20acompanamiento%20en%20Regreso%20al%20Origen" target="_blank" rel="noopener" class="btn btn-whatsapp">
                         <svg viewBox="0 0 24 24" fill="currentColor" class="wa-svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                         Escribir por WhatsApp
                     </a>
@@ -434,36 +432,13 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Always-visible WhatsApp CTA -->
-            <div class="faq-contact-cta reveal-up" id="faq-contact-cta">
-                <div class="cta-card glass-card">
-                    <div class="cta-content">
-                        <i data-lucide="message-circle-heart" class="cta-icon"></i>
-                        <div class="cta-text">
-                            <h3>¿No encontraste tu respuesta?</h3>
-                            <p>Escríbenos directamente y con gusto te ayudamos</p>
-                        </div>
-                    </div>
-                    <div class="cta-actions">
-                        <a href="https://wa.me/527772677295?text=Hola%2C%20tengo%20una%20duda%20sobre%20la%20terapia%20en%20Regreso%20al%20Origen" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
-                            <svg viewBox="0 0 24 24" fill="currentColor" class="wa-svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                            WhatsApp
-                        </a>
-                        <a href="https://www.facebook.com/profile.php?id=61577099487038" target="_blank" rel="noopener" class="btn btn-facebook btn-sm">
-                            <svg viewBox="0 0 24 24" fill="currentColor" class="fb-svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                            Facebook
-                        </a>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <!-- ===== FOOTER ===== -->
         <footer class="footer">
             <div class="footer-inner">
                 <img src="logotipo_regresoalorigen.png" alt="Regreso al Origen" class="footer-logo">
-                <p class="footer-tagline">Tu proceso de sanación comienza con un solo paso.</p>
+                <p class="footer-tagline">Tu proceso de bienestar comienza con un solo paso.</p>
                 <div class="footer-social">
                     <a href="https://wa.me/527772677295" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
@@ -479,11 +454,14 @@
     </main>
 
     <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
-    <a href="https://wa.me/527772677295?text=Hola%2C%20tengo%20una%20duda%20sobre%20la%20terapia%20en%20Regreso%20al%20Origen" target="_blank" rel="noopener" class="fab-whatsapp" id="fab-whatsapp" aria-label="Contactar por WhatsApp">
+    <a href="https://wa.me/527772677295?text=Hola%2C%20tengo%20una%20duda%20sobre%20el%20acompanamiento%20en%20Regreso%20al%20Origen" target="_blank" rel="noopener" class="fab-whatsapp" id="fab-whatsapp" aria-label="Contactar por WhatsApp">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        <span class="fab-tooltip">¿Tienes dudas? Escríbenos</span>
+        <span class="fab-tooltip">Â¿Tienes dudas? EscrÃ­benos</span>
     </a>
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
