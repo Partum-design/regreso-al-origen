@@ -21,6 +21,7 @@
         border-radius:28px 28px 0 0;
         background:linear-gradient(180deg,rgba(255,255,255,.96) 0%,#fff 42%);
         box-shadow:0 -8px 24px rgba(22,64,24,.08);
+        padding-bottom:5rem;
     }
     .form-section,
     .faq-section{
@@ -60,9 +61,18 @@
         box-shadow:0 12px 24px rgba(22,64,24,.10);
     }
     .faq-search{
-        position:sticky;
-        top:4.8rem;
-        z-index:19;
+        position:relative;
+        top:auto;
+        z-index:auto;
+    }
+    .faq-list{
+        gap:.75rem;
+    }
+    .faq-q-text{
+        line-height:1.35;
+    }
+    .faq-section{
+        padding-bottom:6.5rem;
     }
     .fab-whatsapp{
         bottom:calc(1rem + env(safe-area-inset-bottom));
